@@ -1,0 +1,3 @@
+txt = {'Python', 'Java', 'Ruby'}
+x = "->".join(txt)
+print(x)

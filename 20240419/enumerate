@@ -1,0 +1,6 @@
+a =  ['Python', 'Java', 'JavaScript']
+newlist = [(idx, a) for idx, a in enumerate(a)]
+print(newlist)
+
+newlist = [(idx, a) for idx, a in enumerate(a, start=1)]
+print(newlist)

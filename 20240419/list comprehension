@@ -1,0 +1,7 @@
+number = [x for x in range(1,11) if x%2==0]
+print(number)
+
+a =  ["Seoul", "New York", "London", "Shanghai", "Paris", "Tokyo"]
+l = [b for b in a if b.startswith('S')]
+print(l)
+
